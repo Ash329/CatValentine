@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://feg6rjjqokyq"]
+
+[ext_resource type="FontFile" uid="uid://i3clrl43hkwx" path="res://m6x11.ttf" id="1_fr03g"]
+
+[node name="chat" type="CanvasLayer"]
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_left = 7.0
+offset_top = 29.0
+offset_right = 816.0
+offset_bottom = 176.0
+size_flags_vertical = 8
+
+[node name="Panel" type="Panel" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_fr03g")
+theme_override_font_sizes/font_size = 78
+text = "WILL YOU BE MY VALENTINE"
