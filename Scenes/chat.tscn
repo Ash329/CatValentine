@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://feg6rjjqokyq"]
 
-[ext_resource type="FontFile" uid="uid://i3clrl43hkwx" path="res://m6x11.ttf" id="1_fr03g"]
+[ext_resource type="FontFile" uid="uid://i3clrl43hkwx" path="res://Assets/m6x11.ttf" id="1_fr03g"]
 
 [node name="chat" type="CanvasLayer"]
 

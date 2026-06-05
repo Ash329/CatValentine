@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://bpwfm5h8yqtk3"]
 
 [ext_resource type="PackedScene" uid="uid://feg6rjjqokyq" path="res://Scenes/chat.tscn" id="1_opgeo"]
-[ext_resource type="Texture2D" uid="uid://b5jsjou8hk221" path="res://pixil-frame-0 (82).png" id="2_7qu7n"]
+[ext_resource type="Texture2D" uid="uid://b5jsjou8hk221" path="res://Assets/background/pixil-frame-0 (82).png" id="2_7qu7n"]
 [ext_resource type="PackedScene" uid="uid://bj0p5xxd7dkbg" path="res://Scenes/player.tscn" id="3_hlwyd"]
-[ext_resource type="Texture2D" uid="uid://jl8romagle40" path="res://Terrain (16x16).png" id="4_5hnj0"]
+[ext_resource type="Texture2D" uid="uid://jl8romagle40" path="res://Assets/Tilemaps/Terrain (16x16).png" id="4_5hnj0"]
 [ext_resource type="PackedScene" uid="uid://8ms1lyhul4kn" path="res://Scenes/area_2d.tscn" id="5_wlwlh"]
 [ext_resource type="PackedScene" uid="uid://by0e35hoh40l3" path="res://Scenes/npc.tscn" id="6_0674o"]
 
@@ -308,10 +308,10 @@ sources/0 = SubResource("TileSetAtlasSource_ctclj")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -401.0
-offset_top = -488.0
-offset_right = 1405.0
-offset_bottom = 368.0
+offset_left = -359.0
+offset_top = -501.0
+offset_right = 1447.0
+offset_bottom = 355.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_7qu7n")
