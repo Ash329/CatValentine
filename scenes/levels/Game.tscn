@@ -1,11 +1,11 @@
 [gd_scene load_steps=11 format=3 uid="uid://bpwfm5h8yqtk3"]
 
-[ext_resource type="PackedScene" uid="uid://feg6rjjqokyq" path="res://Scenes/chat.tscn" id="1_opgeo"]
+[ext_resource type="PackedScene" uid="uid://feg6rjjqokyq" path="res://scenes/ui/chat.tscn" id="1_opgeo"]
 [ext_resource type="Texture2D" uid="uid://b5jsjou8hk221" path="res://Assets/background/pixil-frame-0 (82).png" id="2_7qu7n"]
-[ext_resource type="PackedScene" uid="uid://bj0p5xxd7dkbg" path="res://Scenes/player.tscn" id="3_hlwyd"]
+[ext_resource type="PackedScene" uid="uid://bj0p5xxd7dkbg" path="res://scenes/player/player.tscn" id="3_hlwyd"]
 [ext_resource type="Texture2D" uid="uid://jl8romagle40" path="res://Assets/Tilemaps/Terrain (16x16).png" id="4_5hnj0"]
-[ext_resource type="PackedScene" uid="uid://8ms1lyhul4kn" path="res://Scenes/area_2d.tscn" id="5_wlwlh"]
-[ext_resource type="PackedScene" uid="uid://by0e35hoh40l3" path="res://Scenes/npc.tscn" id="6_0674o"]
+[ext_resource type="PackedScene" uid="uid://8ms1lyhul4kn" path="res://scenes/world/area_2d.tscn" id="5_wlwlh"]
+[ext_resource type="PackedScene" uid="uid://by0e35hoh40l3" path="res://scenes/npcs/npc.tscn" id="6_0674o"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ctclj"]
 texture = ExtResource("4_5hnj0")

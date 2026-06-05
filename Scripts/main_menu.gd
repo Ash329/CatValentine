@@ -25,8 +25,8 @@ func _ready() -> void:
 			Vector2(-235, -118), Vector2(470, 34), false))
 
 	# Level buttons
-	_level_btn("VALENTINE LEVEL", "res://Scenes/Game.tscn",          true,  font, Vector2(-145, -62))
-	_level_btn("ANNIVERSARY",     "res://Scenes/Anniversary.tscn",   true,  font, Vector2(-145,  14))
+	_level_btn("VALENTINE LEVEL", "res://scenes/levels/Game.tscn",          true,  font, Vector2(-145, -62))
+	_level_btn("ANNIVERSARY",     "res://scenes/levels/Anniversary.tscn",   true,  font, Vector2(-145,  14))
 	_level_btn("UNTITLED",        "",                                 false, font, Vector2(-145,  90))
 
 
