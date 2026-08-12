@@ -1,0 +1,17 @@
+res://scenes/enemies/mouse.tscn::5606a9c5addb199dbe73d990d09c1864::1780644865::res://.godot/exported/133200997/export-a33fe7841e4cd4104ec558b5dd63c968-mouse.scn
+res://scenes/levels/Anniversary.tscn::aaf50294a66945ce636a7dec3c3d0388::1780653954::res://.godot/exported/133200997/export-6b337f3cde71fd2cc632725ceec116ad-Anniversary.scn
+res://scenes/levels/Game.tscn::01f00cb5f5c6869f35f4a2676f1b84c2::1780654297::res://.godot/exported/133200997/export-36f7c4b9a08af7608f74becd86c64a42-Game.scn
+res://scenes/npcs/butterfly.tscn::79bd321a641fbb6a5cf52b531ea5f314::1780637570::res://.godot/exported/133200997/export-fe38e3e2e436f358a25cb3314d3dec83-butterfly.scn
+res://scenes/npcs/butterfly_purple.tscn::1ea8aa6691a00e808222ad44ac3f8404::1780637676::res://.godot/exported/133200997/export-330e6af09e1ee4dc31636eb210e4d256-butterfly_purple.scn
+res://scenes/npcs/chicken.tscn::ab76dd4402986600bcde3510282180c5::1780638928::res://.godot/exported/133200997/export-82643d85fed373a99ce25f21d03c4fbc-chicken.scn
+res://scenes/npcs/cow.tscn::4aeb9f3d8f13c1eef413c54436867847::1780636856::res://.godot/exported/133200997/export-d656e0d4c7d60931b4df85529e0bd314-cow.scn
+res://scenes/npcs/cow_black.tscn::d2296af557c37cc682b823721800ad62::1780639368::res://.godot/exported/133200997/export-03a91a29faf0e0ad17abfcee7922148d-cow_black.scn
+res://scenes/npcs/cow_brown.tscn::e013102bfa730e58294526e78bb23eb1::1780636399::res://.godot/exported/133200997/export-36a5d9fc292698f5f985a9c9dae5bc9b-cow_brown.scn
+res://scenes/npcs/cow_pink_rare.tscn::35fc91cd1a0e9b8296c358d11226f351::1780636634::res://.godot/exported/133200997/export-34a52ea42eec2f17fc7bcd0505e96469-cow_pink_rare.scn
+res://scenes/npcs/cow_white.tscn::de35d729f25bfb64a7fd37f2108d5ad4::1780636557::res://.godot/exported/133200997/export-36f80ebe738bb6fa7782ae86b72e9c16-cow_white.scn
+res://scenes/npcs/npc.tscn::06c1716695ea28f0d300959e6d037ea0::1780654486::res://.godot/exported/133200997/export-31101874e6a9a5fb17b1159c06630215-npc.scn
+res://scenes/player/player.tscn::3ad276c2e3177570d6f0e5e0369efd2a::1780647185::res://.godot/exported/133200997/export-c2c62cb8c73458cd122faf659769dc80-player.scn
+res://scenes/ui/chat.tscn::28c053fc16b5771121aa06f32f8ebd45::1779801144::res://.godot/exported/133200997/export-3e9bb56bf6d5925158bac1cd0f666f34-chat.scn
+res://scenes/ui/MainMenu.tscn::27eba1452a5fc6ba18512aec3a61d733::1780518290::res://.godot/exported/133200997/export-99174fb0fd2492fee0dd7d5ca3b0e3c8-MainMenu.scn
+res://scenes/world/area_2d.tscn::35c4c3661ef110009d099c9f339484a5::1779764986::res://.godot/exported/133200997/export-e3060a99a542128498bd9318e28ba86a-area_2d.scn
+res://scenes/world/node_2d.tscn::edcf6e5ba570f48b349a4fef4fc2474e::1780654041::res://.godot/exported/133200997/export-a630fa5762feb3c336ed650cf253ea68-node_2d.scn

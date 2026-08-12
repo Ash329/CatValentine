@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://v6apava5vo5u"]
+
+[ext_resource type="Texture2D" uid="uid://bkn2h262u2f7f" path="res://Assets/characters/Butterfly_001 Spritesheet.png" id="1_dstxc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dstxc"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(0, 32, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_endo8"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(8, 32, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bowde"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(16, 32, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ny4p7"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(24, 32, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfyr1"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(32, 32, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b1btv"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(40, 32, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gd7mu"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(48, 32, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n0h1y"]
+atlas = ExtResource("1_dstxc")
+region = Rect2(56, 32, 8, 8)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u8tgi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dstxc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_endo8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bowde")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ny4p7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wfyr1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b1btv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gd7mu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n0h1y")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Butterfly" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_u8tgi")
+animation = &"idle"

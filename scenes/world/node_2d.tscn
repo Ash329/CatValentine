@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://8ms1lyhul4kn" path="res://scenes/world/area_2d.tscn" id="3_1p8bf"]
 [ext_resource type="Texture2D" uid="uid://jl8romagle40" path="res://Assets/Tilemaps/Terrain (16x16).png" id="3_032me"]
 [ext_resource type="PackedScene" uid="uid://by0e35hoh40l3" path="res://scenes/npcs/npc.tscn" id="6_socti"]
-[ext_resource type="Script" path="res://Scripts/area_2d.gd" id="7_3xbq8"]
+[ext_resource type="Script" uid="uid://c8yjv24xl7kb1" path="res://Scripts/area_2d.gd" id="7_3xbq8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ctclj"]
 texture = ExtResource("3_032me")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=44 format=3 uid="uid://bj0p5xxd7dkbg"]
+[gd_scene load_steps=45 format=3 uid="uid://bj0p5xxd7dkbg"]
 
 [ext_resource type="Texture2D" uid="uid://j4tvv0osw0hl" path="res://Assets/black_2.png" id="1_4x5ia"]
 [ext_resource type="Script" uid="uid://drd8gyohhv0kd" path="res://Scripts/player.gd" id="1_omffu"]
@@ -329,20 +329,20 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_31neh"]
 radius = 6.32456
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dovo2"]
+size = Vector2(7.25, 20)
+
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(5, -2)
 script = ExtResource("1_omffu")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(24, -8)
 scale = Vector2(1, 0.90625)
 sprite_frames = SubResource("SpriteFrames_dp5ql")
 animation = &"walking"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(24, -8)
 shape = SubResource("CircleShape2D_31neh")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -350,3 +350,9 @@ position = Vector2(24, -8)
 zoom = Vector2(3, 3)
 limit_bottom = 160
 position_smoothing_speed = 10.0
+
+[node name="HitBox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox"]
+position = Vector2(12.375, -2)
+shape = SubResource("RectangleShape2D_dovo2")

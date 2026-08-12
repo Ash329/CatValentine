@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=3 uid="uid://brl687604nwni"]
+
+[ext_resource type="Texture2D" uid="uid://ysgwmmeyvac3" path="res://Assets/characters/rats free.png" id="1_e7ge1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o6mtn"]
+atlas = ExtResource("1_e7ge1")
+region = Rect2(128, 64, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hf33n"]
+atlas = ExtResource("1_e7ge1")
+region = Rect2(0, 64, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4xcy"]
+atlas = ExtResource("1_e7ge1")
+region = Rect2(64, 64, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_prgl8"]
+atlas = ExtResource("1_e7ge1")
+region = Rect2(128, 64, 64, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3ljmq"]
+atlas = ExtResource("1_e7ge1")
+region = Rect2(192, 64, 64, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qajim"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o6mtn")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hf33n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4xcy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_prgl8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3ljmq")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e7ge1"]
+size = Vector2(12.5, 7.25)
+
+[node name="Mouse" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(9.536743e-07, -9.000001)
+scale = Vector2(0.703125, 0.78125006)
+sprite_frames = SubResource("SpriteFrames_qajim")
+animation = &"walking"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -1.625)
+shape = SubResource("RectangleShape2D_e7ge1")

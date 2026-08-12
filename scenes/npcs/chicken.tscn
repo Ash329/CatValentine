@@ -1,0 +1,126 @@
+[gd_scene load_steps=18 format=3 uid="uid://dr66girmbimdm"]
+
+[ext_resource type="Texture2D" uid="uid://bttw76kkb7yax" path="res://Assets/characters/chicken/chicken_eating_right-Sheet.png" id="1_k45wr"]
+[ext_resource type="Texture2D" uid="uid://c0g1o30mcdqe2" path="res://Assets/characters/chicken/chicken_run_right-Sheet.png" id="2_1n8sd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mag5f"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_21bip"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qgnnu"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3h7ea"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7y4t0"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7niq6"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q7plq"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fkmcs"]
+atlas = ExtResource("1_k45wr")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wmlbr"]
+atlas = ExtResource("2_1n8sd")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m73fx"]
+atlas = ExtResource("2_1n8sd")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dbqdm"]
+atlas = ExtResource("2_1n8sd")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vc8mg"]
+atlas = ExtResource("2_1n8sd")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_inrk5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mag5f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_21bip")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qgnnu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3h7ea")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7y4t0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7niq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q7plq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fkmcs")
+}],
+"loop": true,
+"name": &"eating",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wmlbr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m73fx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dbqdm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vc8mg")
+}],
+"loop": true,
+"name": &"walking",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_t1a3p"]
+radius = 6.71563
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_k45wr"]
+radius = 75.16648
+
+[node name="Chicken" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(17.375, -7.5)
+scale = Vector2(1.2031249, 1.0624999)
+sprite_frames = SubResource("SpriteFrames_inrk5")
+animation = &"eating"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(17, -7)
+scale = Vector2(1.2031249, 1.0624999)
+shape = SubResource("CircleShape2D_t1a3p")
+
+[node name="DetectPlayer" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectPlayer"]
+position = Vector2(17, -7)
+shape = SubResource("CircleShape2D_k45wr")

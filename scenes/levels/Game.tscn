@@ -320,6 +320,9 @@ texture = ExtResource("2_7qu7n")
 z_index = 1
 position = Vector2(8, 1)
 
+[node name="NPC" parent="." instance=ExtResource("6_0674o")]
+position = Vector2(944, -1)
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_vysdh")
 format = 2
@@ -338,7 +341,5 @@ visibility_layer = 3
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 position = Vector2(533, 212)
 shape = SubResource("WorldBoundaryShape2D_1h8xh")
-
-[node name="NPC" parent="." instance=ExtResource("6_0674o")]
 
 [connection signal="body_shape_entered" from="Killzone" to="Player" method="_on_killzone_body_shape_entered"]

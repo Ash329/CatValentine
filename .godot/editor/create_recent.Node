@@ -1,5 +1,10 @@
-TileMap
 CollisionShape2D
+Area2D
+CPUParticles2D
+AnimatedSprite2D
+TextureRect
+CharacterBody2D
+Node2D
+TileMap
 StaticBody2D
 Camera2D
-TextureRect

@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://b06tv5w5gdfl5"]
+
+[ext_resource type="Texture2D" uid="uid://bkn2h262u2f7f" path="res://Assets/characters/Butterfly_001 Spritesheet.png" id="1_jbqvn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_go4xr"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(0, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_th5pv"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(8, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cp476"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(16, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lnj4m"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(24, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1bhic"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(32, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ajf35"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(40, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5kud4"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(48, 0, 8, 8)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1cmd1"]
+atlas = ExtResource("1_jbqvn")
+region = Rect2(56, 0, 8, 8)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u8tgi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_go4xr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_th5pv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cp476")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lnj4m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1bhic")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ajf35")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5kud4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1cmd1")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Butterfly" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_u8tgi")
+animation = &"idle"

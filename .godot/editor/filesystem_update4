@@ -1,2 +1,9 @@
-res://Scenes/Anniversary.tscn
-res://Scenes/player.tscn
+res://scenes/ui/MainMenu.tscn
+res://Scripts/player.gd
+res://scenes/player/player.tscn
+res://scenes/levels/Anniversary.tscn
+res://Scripts/mouse.gd
+res://scenes/npcs/chicken.tscn
+res://Scripts/chicken.gd
+res://scenes/enemies/mouse.tscn
+res://scenes/npcs/npc.tscn
