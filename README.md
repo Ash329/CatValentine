@@ -1,6 +1,6 @@
 # Cat Valentine
 
-A small 2D pixel-art platformer made in Godot. You play as a cat exploring a farm full of cows, chickens, butterflies and mice.
+A small 2D pixel-art platformer made in Godot and a heart felt gift. You play as a cat exploring a farm full of cows, chickens, butterflies and mice.
 
 <!-- Screenshots -->
 <!-- ![Main menu](screenshots/main_menu.png) -->
