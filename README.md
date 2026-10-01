@@ -2,10 +2,15 @@
 
 A small 2D pixel-art platformer made in Godot and a heart felt gift. You play as a cat exploring a farm full of cows, chickens, butterflies and mice.
 
-<!-- Screenshots -->
-<!-- ![Main menu](screenshots/main_menu.png) -->
-<!-- ![Valentine level](screenshots/valentine.png) -->
-<!-- ![Anniversary level](screenshots/anniversary.png) -->
+## Screenshots
+
+![](screenshots/Screenshot%20from%202026-10-01%2000-15-34.png)
+
+![](screenshots/Screenshot%20from%202026-10-01%2000-16-59.png)
+
+![](screenshots/Screenshot%20from%202026-10-01%2000-17-23.png)
+
+![](screenshots/Screenshot%20from%202026-10-01%2000-17-34.png)
 
 ## Levels
 
@@ -46,7 +51,7 @@ The level also restarts on its own after a few seconds.
 1. Install [Godot 4.5](https://godotengine.org/download).
 2. Clone this repo:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/Ash329/CatValentine.git
    ```
 3. Open Godot, click **Import**, and pick the `project.godot` file.
 4. Press **F5** to run. The game starts at the main menu.
