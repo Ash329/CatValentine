@@ -1,7 +1,8 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1780686261
+::res://::1790828106
 export_presets.cfg::TextFile::-1::1780655029::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::3636265100268019809::1779753764::1779754586::1::::<><><>0<>0<>e224795039286d2a2dd0523317c50844<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile::-1::1790828005::0::1::::<><><>0<>0<><>::
 ::res://Assets/::1780654967
 black_2.png::CompressedTexture2D::692758814416097837::1779753764::1779801230::1::::<><><>0<>0<>ba3c5372b124ad9c056364c8952c29d9<>res://.godot/imported/black_2.png-578977b6b01a113d5c403c8a25890f17.ctex::
 ChatGPT Image Jun 3, 2026, 11_01_14 AM.png::CompressedTexture2D::4957586006361738378::1780654966::1780654967::1::::<><><>0<>0<>31cce36348a46651393f0b1761fa748d<>res://.godot/imported/ChatGPT Image Jun 3, 2026, 11_01_14 AM.png-3ce363793b157ffa5f9e20961e5d044d.ctex::
@@ -111,40 +112,39 @@ idle.png::CompressedTexture2D::1898593245334925796::1780634812::1780634812::1:::
 Cottage_Tileset.png::CompressedTexture2D::4699441959484164132::1780554899::1780554900::1::::<><><>0<>0<>fa65d5e0a5d69749412dbefa22fcc41f<>res://.godot/imported/Cottage_Tileset.png-61850818df6de7ce83de6844bcd49433.ctex::
 Terrain (16x16).png::CompressedTexture2D::656442521167636539::1779753764::1780552239::1::::<><><>0<>0<>00d27774bd42391313e29583843a113e<>res://.godot/imported/Terrain (16x16).png-84dea7124893dbb95980a6b80d035f22.ctex::
 ::res://scenes/::1780648751
-::res://scenes/enemies/::1780644865
-mouse.tscn::PackedScene::3604282068620248754::1780644865::0::1::::<><><>0<>0<><>::uid://ysgwmmeyvac3::::res://Assets/characters/rats free.png
-::res://scenes/levels/::1780684715
-Anniversary.tscn::PackedScene::6871288501640120800::1780684055::0::1::::<><><>0<>0<><>::uid://bj0p5xxd7dkbg::::res://scenes/player/player.tscn<>uid://bpsrsx3yvkvun::::res://scenes/npcs/cow_pink_rare.tscn<>uid://jl8romagle40::::res://Assets/Tilemaps/Terrain (16x16).png<>uid://dk55taxh6swkb::::res://Assets/background/farm.png<>uid://ci5exldvbclll::::res://Assets/Tilemaps/15 Blob TileMap 16x16.png<>uid://by0e35hoh40l3::::res://scenes/npcs/npc.tscn<>uid://dya64hsa8f0c::::res://Assets/Tilemaps/2.png<>uid://srcny6daraoa::::res://scenes/npcs/cow.tscn<>uid://lqsc578i01it::::res://Scripts/cow.gd<>uid://dodjoc6axq0j1::::res://scenes/npcs/cow_black.tscn<>uid://dcx0q08xpmp1g::::res://scenes/npcs/cow_brown.tscn<>uid://bh8l4kv0y3p8w::::res://scenes/npcs/cow_white.tscn<>uid://dr66girmbimdm::::res://scenes/npcs/chicken.tscn<>uid://b06tv5w5gdfl5::::res://scenes/npcs/butterfly.tscn<>uid://s14tw7srvv8w::::res://Scripts/chicken.gd<>uid://0xkje3onpimo::::res://Scripts/butterfly.gd<>uid://d1p6hyuevvehg::::res://scenes/npcs/butterfly_purple.tscn<>uid://brl687604nwni::::res://scenes/enemies/mouse.tscn<>uid://do0s6xim542t8::::res://Scripts/mouse.gd<>uid://v6apava5vo5u::::res://scenes/npcs/butterfly_blue.tscn
+::res://scenes/enemies/::1780711389
+mouse.tscn::PackedScene::3604282068620248754::1780711389::0::1::::<><><>0<>0<><>::uid://ysgwmmeyvac3::::res://Assets/characters/rats free.png
+::res://scenes/levels/::1787524836
+Anniversary.tscn::PackedScene::6871288501640120800::1787524836::0::1::::<><><>0<>0<><>::uid://bj0p5xxd7dkbg::::res://scenes/player/player.tscn<>uid://bpsrsx3yvkvun::::res://scenes/npcs/cow_pink_rare.tscn<>uid://jl8romagle40::::res://Assets/Tilemaps/Terrain (16x16).png<>uid://dk55taxh6swkb::::res://Assets/background/farm.png<>uid://ci5exldvbclll::::res://Assets/Tilemaps/15 Blob TileMap 16x16.png<>uid://by0e35hoh40l3::::res://scenes/npcs/npc.tscn<>uid://dya64hsa8f0c::::res://Assets/Tilemaps/2.png<>uid://srcny6daraoa::::res://scenes/npcs/cow.tscn<>uid://lqsc578i01it::::res://Scripts/cow.gd<>uid://dodjoc6axq0j1::::res://scenes/npcs/cow_black.tscn<>uid://dcx0q08xpmp1g::::res://scenes/npcs/cow_brown.tscn<>uid://bh8l4kv0y3p8w::::res://scenes/npcs/cow_white.tscn<>uid://dr66girmbimdm::::res://scenes/npcs/chicken.tscn<>uid://b06tv5w5gdfl5::::res://scenes/npcs/butterfly.tscn<>uid://s14tw7srvv8w::::res://Scripts/chicken.gd<>uid://0xkje3onpimo::::res://Scripts/butterfly.gd<>uid://d1p6hyuevvehg::::res://scenes/npcs/butterfly_purple.tscn<>uid://brl687604nwni::::res://scenes/enemies/mouse.tscn<>uid://do0s6xim542t8::::res://Scripts/mouse.gd<>uid://v6apava5vo5u::::res://scenes/npcs/butterfly_blue.tscn
 Game.tscn::PackedScene::3484996251389820444::1780684715::0::1::::<><><>0<>0<><>::uid://feg6rjjqokyq::::res://scenes/ui/chat.tscn<>uid://b5jsjou8hk221::::res://Assets/background/pixil-frame-0 (82).png<>uid://bj0p5xxd7dkbg::::res://scenes/player/player.tscn<>uid://jl8romagle40::::res://Assets/Tilemaps/Terrain (16x16).png<>uid://8ms1lyhul4kn::::res://scenes/world/area_2d.tscn<>uid://by0e35hoh40l3::::res://scenes/npcs/npc.tscn
-::res://scenes/npcs/::1780683927
+::res://scenes/npcs/::1780711681
 butterfly.tscn::PackedScene::4206330220611735648::1780637570::0::1::::<><><>0<>0<><>::uid://bkn2h262u2f7f::::res://Assets/characters/Butterfly_001 Spritesheet.png
 butterfly_blue.tscn::PackedScene::1537988246164931984::1780683927::0::1::::<><><>0<>0<><>::uid://bkn2h262u2f7f::::res://Assets/characters/Butterfly_001 Spritesheet.png
 butterfly_purple.tscn::PackedScene::9017033670979263228::1780637676::0::1::::<><><>0<>0<><>::uid://bkn2h262u2f7f::::res://Assets/characters/Butterfly_001 Spritesheet.png
-chicken.tscn::PackedScene::8418361491836262578::1780638928::0::1::::<><><>0<>0<><>::uid://bttw76kkb7yax::::res://Assets/characters/chicken/chicken_eating_right-Sheet.png<>uid://c0g1o30mcdqe2::::res://Assets/characters/chicken/chicken_run_right-Sheet.png
+chicken.tscn::PackedScene::8418361491836262578::1780693290::0::1::::<><><>0<>0<><>::uid://bttw76kkb7yax::::res://Assets/characters/chicken/chicken_eating_right-Sheet.png<>uid://c0g1o30mcdqe2::::res://Assets/characters/chicken/chicken_run_right-Sheet.png
 cow.tscn::PackedScene::1298639565196210948::1780636856::0::1::::<><><>0<>0<><>::uid://bmelqb3ixg1ic::::res://Assets/characters/Cows/cows_spritesheet_white_darkspots.png
 cow_black.tscn::PackedScene::8148670602290533600::1780639368::0::1::::<><><>0<>0<><>::uid://cevwtcujx4bju::::res://Assets/characters/Cows/cows_spritesheet_black1.png
 cow_brown.tscn::PackedScene::7348668289348231718::1780636399::0::1::::<><><>0<>0<><>::uid://dwtd86yvy0vnd::::res://Assets/characters/Cows/cows_spritesheet_brown.png
 cow_pink_rare.tscn::PackedScene::3477477723414489001::1780636634::0::1::::<><><>0<>0<><>::uid://dusgysrbwi2qt::::res://Assets/characters/Cows/cows_spritesheet_white_pinkspots.png
 cow_white.tscn::PackedScene::2946587288830444276::1780636557::0::1::::<><><>0<>0<><>::uid://bg6wsuybgbeg2::::res://Assets/characters/Cows/cows_spritesheet_white1.png
-npc.tscn::PackedScene::4122856832218530254::1780654486::0::1::::<><><>0<>0<><>::uid://bb8q2xr8mtcl5::::res://Assets/orange_3.png<>uid://okoljnfelje4::::res://Scripts/npc.gd<>res://Scripts/collision_shape_2d.gd<>uid://6h2ba4yhoib::::res://Assets/heart_16x16.png
-::res://scenes/player/::1780647185
-player.tscn::PackedScene::3070695292742284168::1780647185::0::1::::<><><>0<>0<><>::uid://j4tvv0osw0hl::::res://Assets/black_2.png<>uid://drd8gyohhv0kd::::res://Scripts/player.gd
-::res://scenes/ui/::1780628603
+npc.tscn::PackedScene::4122856832218530254::1780711681::0::1::::<><><>0<>0<><>::uid://bb8q2xr8mtcl5::::res://Assets/orange_3.png<>uid://okoljnfelje4::::res://Scripts/npc.gd<>res://Scripts/collision_shape_2d.gd<>uid://6h2ba4yhoib::::res://Assets/heart_16x16.png
+::res://scenes/player/::1787537285
+player.tscn::PackedScene::3070695292742284168::1787537285::0::1::::<><><>0<>0<><>::uid://j4tvv0osw0hl::::res://Assets/black_2.png<>uid://drd8gyohhv0kd::::res://Scripts/player.gd
+::res://scenes/ui/::1780689955
 chat.tscn::PackedScene::359622298005106616::1779801144::0::1::::<><><>0<>0<><>::uid://i3clrl43hkwx::::res://Assets/m6x11.ttf
-MainMenu.tscn::PackedScene::211883159918445746::1780518290::0::1::::<><><>0<>0<><>::uid://dw84d3tcy8c0m::::res://Scripts/main_menu.gd
+MainMenu.tscn::PackedScene::211883159918445746::1780689955::0::1::::<><><>0<>0<><>::uid://dw84d3tcy8c0m::::res://Scripts/main_menu.gd
 ::res://scenes/world/::1780654041
 area_2d.tscn::PackedScene::2342144324792508109::1779764986::0::1::::<><><>0<>0<><>::uid://b5kxrigjgw2hi::::res://Scripts/killszone.gd
 node_2d.tscn::PackedScene::4290053410987710960::1780654041::0::1::::<><><>0<>0<><>::uid://feg6rjjqokyq::::res://scenes/ui/chat.tscn<>uid://b5jsjou8hk221::::res://Assets/background/pixil-frame-0 (82).png<>uid://bj0p5xxd7dkbg::::res://scenes/player/player.tscn<>uid://8ms1lyhul4kn::::res://scenes/world/area_2d.tscn<>uid://jl8romagle40::::res://Assets/Tilemaps/Terrain (16x16).png<>uid://by0e35hoh40l3::::res://scenes/npcs/npc.tscn<>uid://c8yjv24xl7kb1::::res://Scripts/area_2d.gd
-::res://Scripts/::1780684711
+::res://Scripts/::1780713863
 area_2d.gd::GDScript::7139203692136372148::1780629658::0::1::::<>RefCounted<><>0<>0<><>::
 butterfly.gd::GDScript::1802825275368984910::1780638041::0::1::::<>Node2D<><>0<>0<><>::
-chicken.gd::GDScript::1318868935753408196::1780640733::0::1::::<>CharacterBody2D<><>0<>0<><>::
+chicken.gd::GDScript::1318868935753408196::1780711348::0::1::::<>CharacterBody2D<><>0<>0<><>::
 collision_shape_2d.gd::GDScript::-1::1779753764::0::1::::<>CollisionShape2D<><>0<>0<><>::
 cow.gd::GDScript::806205428186237043::1780637133::0::1::::<>CharacterBody2D<><>0<>0<><>::
 game_over.gd::GDScript::6599724167743238053::1780628674::0::1::::<>CanvasLayer<><>0<>0<><>::
 killszone.gd::GDScript::4514157049578142866::1779757728::0::1::::<>Area2D<><>0<>0<><>::
 main_menu.gd::GDScript::8773308727301261422::1780628671::0::1::::<>CanvasLayer<><>0<>0<><>::
-mouse.gd::GDScript::8194664792326074587::1780646546::0::1::::<>CharacterBody2D<><>0<>0<><>::
+mouse.gd::GDScript::8194664792326074587::1780692322::0::1::::<>CharacterBody2D<><>0<>0<><>::
 npc.gd::GDScript::1004157763130309569::1780684711::0::1::::<>CharacterBody2D<><>0<>0<><>::
-orange_cat_anniversery.gd::GDScript::2474993908003725607::1780652720::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.gd::GDScript::8360681184228677939::1780672426::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::8360681184228677939::1780713863::0::1::::<>CharacterBody2D<><>0<>0<><>::

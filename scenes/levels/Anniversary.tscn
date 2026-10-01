@@ -1327,10 +1327,10 @@ sources/2 = SubResource("TileSetAtlasSource_yay6t")
 position = Vector2(-21, 15)
 
 [node name="TextureRect" type="TextureRect" parent="."]
-offset_left = -211.0
-offset_top = -917.0
-offset_right = 1961.0
-offset_bottom = 234.0
+offset_left = -170.0
+offset_top = -994.0
+offset_right = 2002.0
+offset_bottom = 157.0
 texture = ExtResource("2_wu2u7")
 
 [node name="Player" parent="." groups=["player"] instance=ExtResource("1_2fl1j")]

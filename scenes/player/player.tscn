@@ -339,7 +339,7 @@ script = ExtResource("1_omffu")
 texture_filter = 1
 scale = Vector2(1, 0.90625)
 sprite_frames = SubResource("SpriteFrames_dp5ql")
-animation = &"walking"
+animation = &"attacking"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
